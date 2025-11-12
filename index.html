@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <title>Hello Ninh 💕</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="stars">
+          <span class="star">✨</span>
+          <span class="star">⭐</span>
+          <span class="star">💫</span>
+        </div>
+
+        <h1 class="title">Xin chào Ninh!</h1>
+
+        <div class="message">
+          <p class="greeting">Rất vui được gặp bạn hôm nay</p>
+          <p class="subtitle">Đây là một món quà nhỏ từ tôi dành cho bạn</p>
+        </div>
+
+        <div class="interactive-buttons">
+          <div class="heart clickable" id="giftBox">💝</div>
+          <div class="message-icon clickable" id="messageBox">💌</div>
+        </div>
+        <p class="click-hint">(Click vào để khám phá)</p>
+
+        <div class="footer">
+          <p class="signature">Với tình cảm chân thành</p>
+          <p class="date">Hôm nay, một ngày đặc biệt</p>
+        </div>
+      </div>
+
+      <!-- Gallery Section -->
+      <div class="gallery-container" id="galleryContainer">
+        <div class="gallery-header">
+          <h2>Những bức ảnh mình ấn tượng về bạn 💕</h2>
+          <button class="close-gallery" id="closeGallery">✕</button>
+        </div>
+        <div class="gallery-grid" id="galleryGrid">
+          <!-- Images will be added here by JavaScript -->
+        </div>
+      </div>
+
+      <!-- Image Modal -->
+      <div class="image-modal" id="imageModal">
+        <span class="modal-close" id="modalClose">&times;</span>
+        <img class="modal-image" id="modalImage" src="" alt="Gallery Image" />
+        <div class="modal-nav">
+          <button class="modal-prev" id="modalPrev">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15 18L9 12L15 6"
+                stroke="currentColor"
+                stroke-width="3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+          <button class="modal-next" id="modalNext">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9 18L15 12L9 6"
+                stroke="currentColor"
+                stroke-width="3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Message Modal -->
+      <div class="message-modal" id="messageModal">
+        <div class="message-content">
+          <button class="message-close" id="messageClose">✕</button>
+          <div class="message-text" id="messageText"></div>
+        </div>
+      </div>
+
+      <!-- Confetti Container -->
+      <div class="confetti-container" id="confettiContainer"></div>
+
+      <div class="floating-elements">
+        <span class="floating">🌸</span>
+        <span class="floating">🌺</span>
+        <span class="floating">🌻</span>
+        <span class="floating">🌷</span>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
