@@ -120,7 +120,7 @@ function navigateModal(direction) {
 // Message content - Option 1
 const messageContent = `Chào Ninh! 
 
-Hôm nay là lần đầu mình gặp bạn, và mình muốn gửi đến bạn những khoảnh khắc một gì đó thú vị nên mình chuẩn bị page này. 
+Hôm nay là lần đầu mình gặp bạn, và mình muốn gửi đến bạn một thứ gì đó thú vị nên mình chuẩn bị page này. 
 
 Khi bạn xem được trang web này, thì mình cũng đã có một ấn tượng tốt về cậu rồi đó haha.
 
